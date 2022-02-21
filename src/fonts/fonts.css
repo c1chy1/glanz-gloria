@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../assets/fonts/helvetica-regular.woff2');
+    src: local('☺'),
+    url('../assets/fonts/helvetica-regular.woff2') format('woff2');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'AmsiPro';
+    src: url('../assets/fonts/AmsiPro-Regular.woff2');
+    src: local('☺'),
+    url('../assets/fonts/AmsiPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../assets/fonts/manrope.light.woff2');
+    src: local('☺'),
+    url('../assets/fonts/manrope.light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../assets/fonts/Lato-Italic.woff2');
+    src: local('☺'),
+    url('../assets/fonts/Lato-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
