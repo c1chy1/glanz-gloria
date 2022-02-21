@@ -6,6 +6,10 @@ const ServiceWorkerWebpackPlugin = require("serviceworker-webpack-plugin");
 
 module.exports = {
 
+    
+     publicPath: process.env.NODE_ENV === "production" ? "/glanz-gloria/" : "/",
+    
+    
     pwa: {
         name: 'Glanz & Gloria',
         themeColor: '#31B9D5',
