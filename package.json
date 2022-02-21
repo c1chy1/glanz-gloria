@@ -1,0 +1,70 @@
+{
+  "name": "glanzundgloria",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.4.1",
+    "@heroicons/vue": "^1.0.4",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/typography": "^0.4.1",
+    "@vuelidate/core": "^2.0.0-alpha.26",
+    "@vuelidate/validators": "^2.0.0-alpha.22",
+    "aos": "^2.3.4",
+    "core-js": "^3.6.5",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-webp-webpack-plugin": "^3.3.6",
+    "img-optimize-loader": "^1.0.7",
+    "register-service-worker": "^1.7.1",
+    "vue": "^3.2.6",
+    "vue-cookie-next": "^1.3.0",
+    "vue-router": "^4.0.12",
+    "vue-universal-modal": "^1.1.3",
+    "vuelidate": "^0.7.6",
+    "vueperslides": "^3.3.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "autoprefixer": "^9.8.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "file-loader": "^6.2.0",
+    "image-webpack-loader": "^7.0.1",
+    "postcss": "^7.0.36",
+    "sass": "^1.43.2",
+    "sass-loader": "^10.2.0",
+    "serviceworker-webpack-plugin": "^1.0.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14",
+    "vue-cli-plugin-compression": "~1.1.5",
+    "webp-loader": "^0.6.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
